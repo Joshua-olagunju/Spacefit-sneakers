@@ -1,0 +1,308 @@
+/* Global Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.images1{
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Crops the image inside the box */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section Styling */
+.hero-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    
+}
+.container1{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/* Logo Styling */
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Navbar Styling (Desktop and Above) */
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    padding: 0; /* Remove extra space */
+    font-weight: bold !important;
+}
+
+nav a:hover {
+    color: #ff4c29 !important;
+    transform: scale(1.1);
+}
+
+
+/* Hero Image Styling */
+
+
+/* Hero Title Styling */
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Hero Text Styling */
+.hero-text {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #555;
+}
+
+/* Button Styling */
+.btn-danger {
+    background-color: #ff4c29;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #e63c1f;
+}
+
+/* Mobile View (Navbar Hidden) */
+@media (max-width: 767px) {
+    nav {
+        display: none; /* Hide Navbar on Mobile */
+    }
+
+    /* Centered Logo on Mobile */
+    .logo {
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-image {
+        height: 300px;
+    }
+}
+
+/* Feature Card Styling with Background Shadow */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.feature-card img {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+.images{
+    width: 2000px;
+    height: 200px;
+    object-fit: cover; /* Crops the image inside the box */
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+/* Testimonials Section */
+.bg-light {
+    background-color: #f8f9fa;  /* Light background */
+    padding-top: 60px;  /* Extra space on top */
+    padding-bottom: 60px;  /* Extra space on bottom */
+}
+
+.blockquote {
+    background-color: #ffffff;  /* White background for the blockquotes */
+    border-left: 5px solid #ff4c29;  /* Adding a left border with your accent color */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    border-radius: 10px;  /* Rounded corners */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth hover effects */
+}
+
+.blockquote:hover {
+    transform: translateY(-5px);  /* Lift effect on hover */
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);  /* Slightly larger shadow */
+}
+
+/* Styling for blockquote text */
+.blockquote-footer {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Heading Styling */
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .blockquote {
+        margin-bottom: 20px;  /* Add space between blockquotes */
+    }
+}
+
+/* Container Styling for Product Details */
+.product-details-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Specific styles for the specifications list */
+.product-specifications {
+    list-style-type: none;  /* Removes the default bullet points */
+    padding-left: 0;        /* Removes left padding */
+}
+
+.product-specifications li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-specifications li strong {
+    color: #ff4c29;  /* Highlighting key info with your accent color */
+}
+
+/* Paragraph Styling for 'How It’s Made' Section */
+.product-details-paragraph {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* If you want to style links inside the Product Details section */
+.product-specifications a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.product-specifications a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/* Sneaker Gallery Section */
+.sneakers-gallery {
+    background-color: #f8f9fa;  /* Light background for the gallery */
+    border-radius: 10px;
+    padding: 30px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Sneaker Image Box */
+.sneaker-image {
+    border-radius: 10px;
+    overflow: hidden;  /* Ensures images are clipped to the border-radius */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+}
+
+/* Image Styling */
+.sneaker-image img {
+    width: 2000px;
+    height: 200px;
+    object-fit: cover;  /* Ensures the image covers the area without stretching */
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.sneaker-image img:hover {
+    transform: scale(1.05);  /* Slight zoom effect on hover */
+}
+
+/* Column Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    padding: 0 10px;
+}
+.sneaker-image h5 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.sneaker-image .price {
+    color: #28a745; /* green for price */
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 0 48%;  /* 2 items per row on medium-sized screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        flex: 1 0 100%;  /* 1 item per row on small screens */
+    }
+}
+
+.cta-section {
+    
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta-section .btn-danger {
+    background-color: #000;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.cta-section .btn-danger:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
