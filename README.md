@@ -34,7 +34,8 @@ Deliver a simple but effective product showcase website for a sneaker brand.
 
 📸 Preview
 
-![daniel-lim-7a9rmM-lcMo-unsplash](https://github.com/user-attachments/assets/c50d364c-ab8e-4b12-bd06-8ab9017326d4)
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/4272d73a-37e9-4ad1-b703-e5495b07531c" />
+
 
 
 🔗 Live Demo
