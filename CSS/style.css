@@ -306,3 +306,60 @@ h2 {
     color: #000;
     border: 2px solid #000;
 }
+
+
+     /* ========================
+   Drop down menu mobile Section
+   ======================== */
+   @media (min-width: 768px) {
+    .menu-label, .menu-checkbox, .menu {
+        display: none;
+    }
+    .desktop-nav {
+        display: block; /* Show desktop navigation */
+    }
+}
+/* Mobile Navigation Styles */
+@media screen and (max-width: 767px) {
+    .desktop-nav {
+        display: none; /* Hide desktop nav on mobile */
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 75px;
+        right: 40px;
+        background:  rgb(0, 0, 0); 
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 999; /* Ensure the menu is on top */
+    }
+    .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu ul li {
+        margin: 10px 0;
+    }
+    .menu ul li a {
+        color: rgb(255, 255, 255) !important;
+        text-decoration: none;
+        display: block;
+    }
+    .menu-checkbox {
+        display: none;
+    }
+    .menu-label {
+        font-size: 35px;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 40px;
+        color: rgb(67, 67, 67); 
+    }
+    .menu-checkbox:checked ~ .menu {
+        display: block;
+    }  
+}
