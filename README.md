@@ -56,7 +56,7 @@ This project helped me understand how to build landing pages that are not just r
 <img width="400" alt="SpaceFit Preview" src="https://github.com/user-attachments/assets/4272d73a-37e9-4ad1-b703-e5495b07531c" />
 
 🔗 Live Demo
-👉 View Live Website
+👉 View Live Website https://joshua-olagunju.github.io/Spacefit-sneakers/
 
 ## 👨‍💻 Author
 Joshua Olagunju
